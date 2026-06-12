@@ -1,8 +1,8 @@
-# Writing Loop Editor / 自动写作编辑器
+# Rossum Universal Writer / 罗素姆万能写手
 
-Writing Loop Editor is a Codex skill for long-form prose writing and revision. It is designed for article-style Chinese or English writing where structure, reader understanding, evidence boundaries, and iterative revision matter.
+Rossum Universal Writer is a Codex skill for long-form prose writing and revision. It is designed for article-style Chinese or English writing where structure, reader understanding, evidence boundaries, and iterative revision matter.
 
-自动写作编辑器是一个用于长文写作与修改的 Codex skill。它适合处理中英文文章式写作，重点关注结构清楚、读者能理解、证据边界明确，以及通过多轮复述和诊断不断改进文本。
+罗素姆万能写手是一个用于长文写作与修改的 Codex skill。它适合处理中英文文章式写作，重点关注结构清楚、读者能理解、证据边界明确，以及通过多轮复述和诊断不断改进文本。
 
 ## Use Cases / 适用场景
 
@@ -74,7 +74,7 @@ Clone this repository into your Codex skills directory:
 
 ```bash
 mkdir -p ~/.codex/skills
-git clone https://github.com/codeAlpha1024/writing-loop-editor.git ~/.codex/skills/writing-loop-editor
+git clone https://github.com/codeAlpha1024/rossum-universal-writer.git ~/.codex/skills/rossum-universal-writer
 ```
 
 Restart Codex or start a new chat so the skill metadata is reloaded.
@@ -88,7 +88,7 @@ To update an existing local install:
 如果你已经安装过，后续更新可以运行：
 
 ```bash
-cd ~/.codex/skills/writing-loop-editor
+cd ~/.codex/skills/rossum-universal-writer
 git pull
 ```
 
@@ -100,7 +100,7 @@ If you are maintaining this repository from the local source folder:
 cd "/Users/wastonalex/Documents/写作skill精炼"
 python3 /Users/wastonalex/.codex/skills/.system/skill-creator/scripts/quick_validate.py .
 git add .
-git commit -m "Update writing loop skill"
+git commit -m "Update Rossum Universal Writer"
 git push
 ```
 
@@ -109,7 +109,7 @@ If you edited the installed local skill first, sync it back before committing:
 如果你先修改的是本地已安装的 skill，提交前先同步回仓库：
 
 ```bash
-cp ~/.codex/skills/writing_loop_editor/SKILL.md ./SKILL.md
+cp ~/.codex/skills/rossum-universal-writer/SKILL.md ./SKILL.md
 ```
 
 ## Use / 使用
@@ -119,9 +119,9 @@ Example prompts:
 示例提示词：
 
 ```text
-Use $writing-loop-editor to rewrite this passage with reader-agent diagnosis first.
+Use $rossum-universal-writer to rewrite this passage with reader-agent diagnosis first.
 调用三层写作Loop，检查这节是否清楚。
-Use $writing-loop-editor to expand this outline into textbook prose.
+Use $rossum-universal-writer to expand this outline into textbook prose.
 用读者agent复述一下这段文字，看理解有没有偏差。
 把这段扩写成教材正文。
 ```

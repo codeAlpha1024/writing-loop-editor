@@ -1,7 +1,7 @@
 interface:
-  display_name: "Writing Loop Editor / 写作 Loop 编辑器"
-  short_description: "Bilingual long-form writing and revision"
-  default_prompt: "Use $writing-loop-editor to rewrite this passage with reader-agent diagnosis first. / 使用 $writing-loop-editor 先做读者复述诊断，再改写这段文字。"
+  display_name: "Rossum Universal Writer / 罗素姆万能写手"
+  short_description: "Rossum universal writing and revision"
+  default_prompt: "Use $rossum-universal-writer to rewrite this passage with reader-agent diagnosis first. / 使用 $rossum-universal-writer 先做读者复述诊断，再改写这段文字。"
 
 policy:
   allow_implicit_invocation: true

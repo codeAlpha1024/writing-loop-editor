@@ -1,11 +1,11 @@
 ---
-name: writing-loop-editor
+name: rossum-universal-writer
 description: "Use when the user is writing, rewriting, expanding, editing, or checking long-form prose: articles, textbook chapters, manuscript sections, commentary, research essays, policy briefs, or explanatory writing. Also use for reader-agent diagnosis, restatement checks, clarity checks, repeated revision loops, or prose that should be clear for humans and easy for AI to revise. Also use when the user says 三层写作Loop, 写作Loop, 自升级编辑, 读者agent, 复述检查, 检查是否清楚, 反复优化, 改文风, 改文章, 把这段改成, 扩写, 写入正文, 教材章节, 长文写作. Do not use for casual chat, simple factual answers, code-only tasks, or short copy edits unrelated to article-style writing. 中文：用于长文写作、改写、扩写、编辑和清晰度检查，尤其是教材章节、书稿、评论文章、研究文章、政策简报和解释性文章；也用于读者 agent 复述、偏差诊断、自升级修改和反复优化。不要用于普通聊天、简单问答、纯代码任务，或与长文写作无关的短句润色。"
 metadata:
-  short-description: Bilingual long-form writing and reader-agent editing
+  short-description: Rossum universal writing and reader-agent editing
 ---
 
-# Writing Loop Editor / 写作 Loop 编辑器
+# Rossum Universal Writer / 罗素姆万能写手
 
 Use this skill to write, rewrite, expand, or edit article-style prose with a clear human-readable and AI-editable style.
 
