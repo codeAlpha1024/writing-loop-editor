@@ -64,6 +64,99 @@ The writing must satisfy four requirements:
 3. **Editorial Review / 编辑检查**: after drafting, review from reader, grammar, and professional perspectives. 写完后从普通读者、语法和专业角度检查。
 4. **Self-Upgrading Revision / 自升级修改**: use reader agents to restate, diagnose, revise, and restate again until the reader's version and the author's intended meaning mostly match. 用读者 agent 复述、诊断、修改，再复述，直到读者理解和作者意图基本一致。
 
+
+## Manuscript Chapter Mode / 教材章节模式
+
+Use this mode when writing or revising a long manuscript chapter, textbook chapter, serialized essay, or any article where chapter-level structure matters more than local polish.
+
+当用户正在写长章节、教材、书稿、连载文章，或者文本需要保持全章结构一致时，使用本模式。此时不要只做局部润色，要先判断章节功能、篇幅比例、叙事推进和材料取舍。
+
+### 1. Identify section function before drafting / 写正文前先判断小节功能
+
+Before drafting or expanding a section, identify its function in the chapter: introduction, transition, explanation, example, historical source, task expansion, comparison, compression, or conclusion.
+
+在写作或扩写之前，先判断本节在全章中的功能：它是引入、转向、解释、举例、溯源、展开任务、比较、压缩，还是收束。不要只看局部内容是否正确，要判断它是否服务全章叙事目标。
+
+### 2. Check chapter-level balance / 先看篇幅平衡
+
+Before expanding, check whether the section is proportionate to sibling sections. A valuable section may still need compression if it turns into a standalone survey.
+
+扩写前先检查全章篇幅比例。如果某一节明显超过同级章节，应先压缩或重构，而不是继续增加材料。判断标准不是“内容是否有价值”，而是“它在本章中是否承担相称的功能”。
+
+### 3. Distinguish repetition from functional return / 区分重复和功能性回扣
+
+Repeated concepts are acceptable only when they perform a new function: introduction, transition, historical sourcing, example, qualification, or conclusion.
+
+判断重复时，不只看关键词是否重复，而看每次出现是否增加新功能。若只是换句话说同一判断，应压缩；若承担引入、转向、溯源、例证、限定或收束等不同功能，可以保留，但要显式标出功能差异。
+
+### 4. Use examples by narrative function / 案例必须服务叙事
+
+Do not list examples just to show coverage. Each example must support a clear judgment. If several examples show the same mechanism, keep the clearest one or move the rest to notes.
+
+案例不是越多越好。每个案例必须说明一个明确判断。若多个案例只展示同一机制，应保留最清楚、最能服务本节目标的一个或两个，其余删除或转入注释。
+
+### 5. Explain first, name later / 先通俗解释，再给专业名词
+
+For technical ideas, explain the mechanism in ordinary language before naming the professional term. A term should make the explanation more precise, not replace it.
+
+遇到专业概念时，先给自然语言解释，再给专业名词。专业名词只能让解释更精确，不能替代解释。若读者不懂名词也能理解基本意思，才算合格。
+
+### 6. Use metaphors sparingly and state their limits / 隐喻要克制，并说明边界
+
+A chapter-wide metaphor should usually appear in three places: introduce it near the opening, develop it once in the middle, and recover it in the conclusion. Always explain where the metaphor stops working.
+
+如果一个隐喻要贯穿整章，默认只放三处：开头提出，中段推进一次，结尾回收。不要在每个小节都重复使用，否则隐喻会压过论证。使用隐喻时，必须说明它的适用范围和限制。
+
+### 7. Avoid encyclopedia drift / 避免百科式展开
+
+If a section starts accumulating many algorithms, fields, papers, names, or examples, check whether it is becoming an encyclopedia entry. Keep the main-line material in body prose; move secondary material to notes, comments, or later chapters.
+
+如果一节开始出现大量算法、应用领域、论文名、人物名和横向案例，要检查它是否正在变成百科式展开。教材正文应保留主线材料，其余放入脚注、注释或后续章节。
+
+### 8. Write task types as questions, not algorithm names / 任务类型先写成问题问法
+
+When explaining data science tasks, start from the question the task answers, not from algorithm names. For example: clustering asks “which objects are similar,” anomaly detection asks “which objects deviate,” and association rules ask “which objects often appear together.”
+
+介绍数据科学任务时，优先写它回答什么问题，而不是先列算法名称。比如：聚类回答“哪些对象相似”，异常检测回答“哪些对象偏离常规”，关联规则回答“哪些对象经常一起出现”。
+
+### 9. Mark core sentences in review mode / 审阅模式标出核心句
+
+In review mode, mark the core sentence of each section or paragraph group. If no core sentence can be found, the section likely needs restructuring before polishing.
+
+审阅长文时，可以标出每节或每个段落组的核心句。核心句应说明该段或该节真正承担的判断功能。若找不到核心句，说明该节可能方向不清，需要先重构而不是润色。
+
+### 10. Treat comment callouts as editorial instructions / 将注释块视为编辑指令
+
+When Obsidian callouts such as `[!comment]` appear, treat them as editorial instructions rather than body prose. Read their location, task, requirements, and processing record before editing.
+
+当正文中出现 Obsidian callout `[!comment]` 时，把它视为编辑指令，不视为正文。优先读取其中的位置、任务、要求、处理记录，再决定是否扩写、压缩、查资料或改写。
+
+Suggested format / 推荐格式：
+
+```md
+> [!comment] Revision Request / 修改请求
+> **Location / 位置**:
+> **Task / 任务**: expand / rewrite / add example / fact-check / compress / adjust tone
+> **Requirements / 要求**:
+> **Processing record / 处理记录**:
+```
+
+### 11. Use review colors only when requested or after asking / 审阅颜色仅在触发或询问后使用
+
+Color markup is an optional review mode, not a default writing mode. Use it when the user explicitly asks for colored review marks, revision traces, or core-sentence marking. If colored markup would help but the user did not ask for it, ask briefly whether to enable it before modifying the document.
+
+颜色标记是可选审阅模式，不是默认写作模式。只有当用户明确要求颜色审阅、修改痕迹、核心句标记时才使用。若你判断颜色标记有帮助但用户没有要求，先简短询问是否启用，再修改正文。
+
+When enabled, preserve revision intent with color-coded Markdown or HTML spans:
+
+启用后，用颜色标记不同编辑意图：
+
+- Green / 绿色: rewritten body prose recommended for retention / 重写后建议保留的正文
+- Red strikethrough / 红色删除线: content recommended for deletion or non-expansion / 建议删除或不再展开
+- Blue / 蓝色: structural note, not body prose / 结构说明，不作为正文
+- Orange / 橙色: requires user confirmation / 需要用户确认
+- Purple bold / 紫色加粗: core sentence or key judgment / 核心句或主判断
+
 ## Layer 1: Direction / 第一层：写作方向
 
 Before writing a section, identify:
