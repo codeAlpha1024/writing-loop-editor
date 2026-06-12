@@ -26,6 +26,46 @@ Do not use it for ordinary chat, simple factual answers, code-only tasks, or iso
 
 不适合普通聊天、简单事实问答、纯代码任务，或孤立的一句话润色，除非你明确要求使用写作 Loop。
 
+## The Three Writing Layers / 三层写作
+
+The skill is organized around three writing layers:
+
+1. **Direction / 写作方向层**: define what the section is trying to prove or explain, how it moves the reader, which examples matter, and how the section connects to the larger argument.
+2. **Paragraph-Level Writing / 段内描写层**: make each paragraph clear, readable, and functionally focused, with concrete examples, explicit transitions, and fewer empty abstractions.
+3. **Editorial Review / 编辑视角层**: review the draft from ordinary-reader, grammar, and professional perspectives, checking clarity, sentence flow, logic, evidence, and claim strength.
+
+这个 skill 的基础结构是三层写作：
+
+1. **写作方向层**：先判断这一节要证明或解释什么、把读者带到哪里、哪些例子真正服务主线，以及本节和全文结构的关系。
+2. **段内描写层**：让每一段清楚、可读、功能明确，优先使用具体例子、清楚过渡和低噪音语言，减少空泛抽象。
+3. **编辑视角层**：从普通读者、语法和专业审稿三个角度检查文本，确认读者是否看得懂、句子是否顺、逻辑和证据是否站得住。
+
+## Core Loop: Revision / 核心部件：修改 Loop
+
+The most important part of this skill is not one-shot drafting. It is the revision loop.
+
+The loop is:
+
+1. reader agents restate what they understood;
+2. the editor compares that restatement with the author's intended meaning;
+3. the editor diagnoses the gap;
+4. the text is revised at the smallest useful unit;
+5. reader agents restate it again.
+
+The goal is not simply to make the text sound better. The goal is to make the text easier to understand, easier to revise, and less likely to be misunderstood.
+
+这个 skill 最核心的部件不是“一次性写出一段漂亮文字”，而是**修改 Loop**。
+
+这个 Loop 的基本过程是：
+
+1. 让不同读者 agent 复述自己理解到的内容；
+2. 把读者复述和作者原意进行比较；
+3. 诊断偏差来自结构、判断、例子、句子还是语气；
+4. 修改最小有效单位；
+5. 再让读者 agent 复述一次。
+
+它的目标不是把文字“润色得更好听”，而是让文本更清楚、更可修改，也更不容易被误解。
+
 ## Install / 安装
 
 Clone this repository into your Codex skills directory:
