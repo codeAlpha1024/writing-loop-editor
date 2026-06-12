@@ -1,8 +1,8 @@
-# Writing Loop Editor / 写作 Loop 编辑器
+# Writing Loop Editor / 自动写作编辑器
 
 Writing Loop Editor is a Codex skill for long-form prose writing and revision. It is designed for article-style Chinese or English writing where structure, reader understanding, evidence boundaries, and iterative revision matter.
 
-写作 Loop 编辑器是一个用于长文写作与修改的 Codex skill。它适合处理中英文文章式写作，重点关注结构清楚、读者能理解、证据边界明确，以及通过多轮复述和诊断不断改进文本。
+自动写作编辑器是一个用于长文写作与修改的 Codex skill。它适合处理中英文文章式写作，重点关注结构清楚、读者能理解、证据边界明确，以及通过多轮复述和诊断不断改进文本。
 
 ## Use Cases / 适用场景
 
